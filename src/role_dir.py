@@ -11,8 +11,13 @@ As a softwared developer, my programs infterface with a variety of systems and c
 print(test_data_lookup)
 print(sample_statement)
 
-# Write a function with one input string (api interface)
 
+# Write a function with one input string (api interface)
+def sample_statement_handler(vrb):
+  print(vrb)
+
+
+sample_statement_handler(sample_statement)
 
 # Find key words in the text with string matching (search)
 
