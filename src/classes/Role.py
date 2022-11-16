@@ -1,8 +1,3 @@
-class Role():
-    def __init__(self) -> None:
-        pass
-
-    set()
     # define getter and setters
 class Role():
     def __init__(self, name = None):
