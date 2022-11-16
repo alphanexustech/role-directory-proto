@@ -9,10 +9,13 @@ class Role():
     def set_name(self, x):
         self.__name = x
 
-first_line_supervisors_of_roduction_and_operating_workers = Role
+test_role_01 = Role()
+test_role_01.set_name("First-Line Supervisors of Production and Operating Workers")
 
-first_line_supervisors_of_roduction_and_operating_workers.set__name("First-Line Supervisors of Production and Operating Workers")
+test_role_02 = Role()
+test_role_02.set_name("Another Role")
 
-print(first_line_supervisors_of_roduction_and_operating_workers.get__name())
+roles = [test_role_01, test_role_02]
 
-print(first_line_supervisors_of_roduction_and_operating_workers.__name)
+for r in roles:
+    print(r.get_name())
