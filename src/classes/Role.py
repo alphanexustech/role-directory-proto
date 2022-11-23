@@ -56,84 +56,78 @@ class Role():
     # x is hourly wage percentile, y is anual wage percentile
     def set_percentile_90(self, x, y):
         self.__percentile_90 = [x, y]
-
-    def get_description(self):
-        return self.__description
-    
-    def set_description(self, x):
-        self.__description = x
     
     def get_industry_highest_level_employment(self):
         return self.__industry_highest_level_employment
 
-    def set_industry_highest_level_employment(self, x):
-        self.__industry_highest_level_employment = x
+    def set_industry_highest_level_employment(self, x, y, z):
+        self.__industry_highest_level_employment = [x, y, z]
     
     def get_industry_highest_concentration_employment(self):
         return self.__industry_highest_concentration_employment
 
-    def set_industry_highest_concentration_employment(self, x):
-        self.__industry_highest_concentration_employment = x
+    def set_industry_highest_concentration_employment(self, x, y, z):
+        self.__industry_highest_concentration_employment = [x, y, z]
 
     def get_industry_top_paying_industries(self):
         return self.__industry_top_paying_industries
 
-    def set_industry_top_paying_industries(self, x):
-        self.__industry_top_paying_industries = x
+    def set_industry_top_paying_industries(self, x, y, z):
+        self.__industry_top_paying_industries = [x, y, z]
     
     def get_state_highest_level_employment(self):
         return self.__state_highest_level_employment
 
-    def set_state_highest_level_employment(self, x):
-        self.__state_highest_level_employment = x
+    def set_state_highest_level_employment(self, x, y, z):
+        self.__state_highest_level_employment = [x, y, z]
 
     def get_state_highest_concentration_employment(self):
         return self.__state_highest_concentration_employment
 
-    def set_state_highest_concentration_employment(self, x):
-        self.__state_highest_concentration_employment = x
+    def set_state_highest_concentration_employment(self, x, y, z):
+        self.__state_highest_concentration_employment = [x, y, z]
     
     def get_state_top_paying(self):
         return self.__state_top_paying
 
-    def set_state_top_paying(self, x):
-        self.__state_top_paying = x
+    def set_state_top_paying(self, x, y, z):
+        self.__state_top_paying = [x, y, z]
 
     def get_metropolitan_highest_level_employment(self):
         return self.__metropolitan_highest_level_employment
 
-    def set_metropolitan_highest_level_employment(self, x):
-        self.__metropolitan_highest_level_employment = x
+    def set_metropolitan_highest_level_employment(self, x, y, z):
+        self.__metropolitan_highest_level_employment = [x, y, z]
 
     def get_metropolitan_highest_concentration_employment(self):
         return self.__metropolitan_highest_concentration_employment
 
-    def set_metropolitan_highest_concentration_employment(self, x):
-        self.__metropolitan_highest_concentration_employment = x
+    def set_metropolitan_highest_concentration_employment(self, x, y, z):
+        self.__metropolitan_highest_concentration_employment = [x, y, z]
     
     def get_metropolitan_top_paying(self):
         return self.__metropolitan_top_paying
 
-    def set_metropolitan_top_paying(self, x):
-        self.__metropolitan_top_paying = x
+    def set_metropolitan_top_paying(self, x, y, z):
+        self.__metropolitan_top_paying = [x, y, z]
 
     def get_non_metropolitan_highest_level_employment(self):
         return self.__non_metropolitan_highest_level_employment
 
-    def set_non_metropolitan_highest_level_employment(self, x):
-        self.__non_metropolitan_highest_level_employment = x
+    def set_non_metropolitan_highest_level_employment(self, x, y, z):
+        self.__non_metropolitan_highest_level_employment = [x, y, z]
 
     def get_non_metropolitan_highest_concentration_employment(self):
         return self.__non_metropolitan_highest_concentration_employment
 
-    def set_non_metropolitan_highest_concentration_employment(self, x):
-        self.__non_metropolitan_highest_concentration_employment = x
+    def set_non_metropolitan_highest_concentration_employment(self, x, y, z):
+        self.__non_metropolitan_highest_concentration_employment = [x, y, z]
     
     def get_non_metropolitan_top_paying(self):
         return self.__non_metropolitan_top_paying
 
-    def set_non_metropolitan_top_paying(self, x):
-        self.__non_metropolitan_top_paying = x
+    def set_non_metropolitan_top_paying(self, x, y, z):
+        self.__non_metropolitan_top_paying = [x, y, z]
 
 test_role_01 = Role()
 test_role_01.set_name("First-Line Supervisors of Production and Operating Workers")
