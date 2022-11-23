@@ -56,7 +56,7 @@ class Role():
     # x is hourly wage percentile, y is anual wage percentile
     def set_percentile_90(self, x, y):
         self.__percentile_90 = [x, y]
-    
+    # x === <category>, y === (<values,>), z === (<keys,>)
     def get_industry_highest_level_employment(self):
         return self.__industry_highest_level_employment
 
