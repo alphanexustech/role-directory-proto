@@ -57,8 +57,11 @@ class Role():
     def set_percentile_90(self, x, y):
         self.__percentile_90 = [x, y]
 
-    #numbers by industry    
-
+    def get_description(self):
+        return self.__description
+    
+    def set_description(self, x):
+        self.__description = x
 
 test_role_01 = Role()
 test_role_01.set_name("First-Line Supervisors of Production and Operating Workers")
